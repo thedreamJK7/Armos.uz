@@ -29,3 +29,60 @@
     --font-semi-bold: 600;
 }
 
+/* Commonly */
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--e-global-color-text);
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* navbar */
+
+header {
+    border-bottom: .5px solid #54595fc0;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding: 20px 0;
+    /* height: 100px; */
+}
+
+.logo h1 {
+    color: var(--e-global-color-primary);
+}
+
+.navbar .navbar-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
