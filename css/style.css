@@ -79,10 +79,87 @@ header {
 
 .logo h1 {
     color: var(--e-global-color-primary);
+    font-size: 18px;
 }
 
 .navbar .navbar-item {
-    margin-right: 10px;
+    margin-right: 15px;
     cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.navbar .navbar-item:hover a {
+    background: #000;
+    border-radius: 4px;
+    color: #fff;
 }
 
+.navbar .navbar-item a {
+    color: var(--e-global-background);
+    font-weight: 600;
+    padding: 6px 8px;
+    transition: .3s;
+}
+
+/* navSearch */
+
+.navSearch {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.navSearch form {
+    display: flex;
+    background: #0f1c36;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+}
+
+.navSearch form input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.navSearch form label {
+    background: #fff;
+    border-radius: 50px;
+    padding: 6px 10px;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+.mainHamburger {
+    position: relative;
+}
+
+.dotted {
+    cursor: pointer;
+    font-size: 24px;
+    color: #04122D;
+    transition: .3s;
+}
+
+.mainHamburger::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    background: #54595F;
+    width: 40px;
+    height: 40px;
+    z-index: -2;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.dotted:hover .mainHamburger::before {
+    opacity: 1;
+}
