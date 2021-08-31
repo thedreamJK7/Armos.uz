@@ -73,7 +73,7 @@ header {
     justify-content: space-between;
     align-self: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 15px;
     /* height: 100px; */
 }
 
@@ -281,6 +281,37 @@ header {
     /* transition: .3s; */
 }
 
+/* first */
+
+#first {
+    background: linear-gradient(50deg, rgba(45, 54, 145, 0.8) 35%, rgba(79, 162, 130, 0.95)), url(/img/Registan.jpg);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.firstItem {
+    padding: 100px 0;
+}
+
+.firstItem h1 {
+    font-size: 110px;
+    font-family: var(--e-global-typography-heading-font-family);
+    margin-bottom: 15px;
+}
+
+.firstItem p {
+    font-size: 24px;
+}
+
+.firstItem .line {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin-top: 50px;
+}
+
 @media (max-width: 992px) {
     .navHamburger {
         display: none;
@@ -307,6 +338,7 @@ header {
         border-bottom-left-radius: 10px;
         padding-top: 10px;
         transition: .5s;
+        z-index: 100;
     }
     .navbar.navbarActive {
         top: 69.5px;
@@ -340,10 +372,29 @@ header {
     .compBars.navbarActive {
         opacity: 0;
     }
+    .firstItem h1 {
+        font-size: 87px;
+    }
+    .firstItem p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .firstItem h1 {
+        font-size: 57px;
+    }
+    .firstItem p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 512px) {
-    .navBar {
-        padding: 20px 10px;
+    .firstItem h1 {
+        font-size: 47px;
+    }
+    .firstItem p {
+        font-size: 18px;
+        margin-top: 15px;
     }
 }
