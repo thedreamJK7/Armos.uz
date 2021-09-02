@@ -41,4 +41,6 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`#first,#second`);
+sr.reveal(`#first,#second`,{
+    interval: 2000
+});
