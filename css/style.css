@@ -404,6 +404,54 @@ header {
     font-weight: 600;
 }
 
+#fourth {
+    background: var(--e-global-background);
+}
+
+.fourth {
+    padding: 20px 0;
+    background: url(/img/digital-dotted.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fourth .thirdItemsInfo h3 {
+    font-size: 36px !important;
+    color: #fff;
+}
+
+.fourthItem {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.fourthItemImg {
+    margin-right: 20px;
+}
+
+.fourthItemImg img {
+    width: 40px;
+}
+
+.fourthItemInfo h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+.fourthItem1 {
+    background-image: linear-gradient(100deg, #FF0C86 0%, #FF7454 100%);
+    color: #fff;
+}
+
+.fourthItem1 h1 {
+    color: #fff;
+}
+
 @media (max-width: 992px) {
     .navHamburger {
         display: none;
@@ -473,9 +521,6 @@ header {
     
     .iconic p {
         font-size: 14px;
-    }
-    .thirdItemsInfo h3 {
-        font-size: 24px;
     }
     .iconic {
         margin: 6px;
