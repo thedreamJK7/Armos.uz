@@ -18,11 +18,27 @@ xBar.addEventListener('click', ()=> {
 
 const navbar = document.getElementById('navbar');
 const compHamburger = document.querySelector('.compHamburger');
-const xComp = document.querySelector('.xComp');
 const compBars = document.querySelector('.compBars');
 
 compHamburger.addEventListener('click', ()=>{
     navbar.classList.toggle('navbarActive');
-    xComp.classList.toggle('navbarActive');
     compBars.classList.toggle('navbarActive');
-})
+});
+
+const navbarItem = document.querySelectorAll('.navbar-item');
+function linkAction() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.remove('navbarActive');
+}
+
+navbarItem.forEach(n => n.addEventListener('click',linkAction));
+
+// Scroll
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`#first,#second`);
