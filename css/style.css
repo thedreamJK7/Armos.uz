@@ -480,7 +480,7 @@ header {
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: #17bebb;
+    background: #20c888;
     border-radius: 50%;
 }
 .pic img{
@@ -497,7 +497,7 @@ header {
     margin: 0 0 7px 0;
 }
 .our-team .post{
-    color: #17bebb;
+    color: #20c888;
     text-transform: capitalize;
     display: block;
     font-size: 15px;
@@ -516,8 +516,8 @@ header {
 .our-team .social li a{
     border-radius: 50%;
     font-size: 15px;
-    color: #17bebb;
-    border: 1px solid #17bebb;
+    color: #20c888;
+    border: 1px solid #20c888;
     display: block;
     width: 30px;
     height: 30px;
@@ -525,22 +525,137 @@ header {
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .social li a{
-    background: #17bebb;
+    background: #20c888;
     color: #fff;
 }
 
 .our-team:hover .pic{
-    background: #17bebb;
+    background: #20c888;
     border-radius: 50%;
 }
 .our-team:hover .social li a{
-    background: #17bebb;
+    background: #20c888;
     color: #fff;
 }
 
 .ninethSection h1 {
     font-family: var(--e-global-typography-heading-font-family);
     color: #20c888;
+}
+
+/* footer */
+
+#footerFirst {
+    background: var(--e-global-background);
+}
+
+.footerFirstHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footerFirstHeading h1 {
+    color: #fff;
+    font-family: var(--e-global-typography-heading-font-family);
+    margin: 20px 0;
+}
+
+.footForm input {
+    width: 400px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 25px;
+    border: none;
+}
+
+.footForm button {
+    padding: 15px 40px;
+    border-radius: 5px;
+    outline: none;
+    background: var(--e-global-background-small-square);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.footForm {
+    margin: 20px 0;
+}
+
+.footLogo {
+    margin-bottom: 20px;
+}
+
+.footLogo img {
+    width: 60px;
+}
+
+.footerFirst p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footIcons {
+    display: flex;
+}
+
+.footIcons li {
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 4px 10px;
+}
+
+.footIcons li a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footIcons li:first-child {
+    background: #2569F3;
+}
+.footIcons li:nth-child(2) {
+    background: #CE0CFF;
+}
+.footIcons li:nth-child(3) {
+    background: #00A2FF;
+}
+.footIcons li:last-child {
+    background: #FF2A78;
+}
+
+.footerFirst {
+    margin-bottom: 20px;
+}
+
+.footerFirstLinks h6 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footerUl {
+    margin-bottom: 20px;
+}
+
+.footerUl li {
+    color: #c2c2c2;
+    margin-bottom: 15px;
+}
+
+.footerUl li i {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footerFirstLinks p {
+    color: #c2c2c2;
 }
 
 @media (max-width: 992px) {
@@ -659,5 +774,11 @@ header {
     .firstItem p {
         font-size: 18px;
         margin-top: 15px;
+    }
+    .footForm input {
+        margin-bottom: 20px;
+    }
+    .footerFirst {
+        margin-bottom: 25px;
     }
 }
