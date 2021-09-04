@@ -68,7 +68,18 @@ img {
 /* navbar */
 
 header {
-    border-bottom: .5px solid #54595fc0;
+    transition: .3s;
+    padding: 20px 0;
+}
+
+header.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff !important;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 0;
 }
 
 .navBar {
@@ -445,11 +456,11 @@ header {
 /* #FF4968 */
 
 .fourthItem .fourthItemImg i {
-    color: #FF4968;
+    color: #20c888;
 }
 
 .fourthItem1 {
-    background-image: linear-gradient(100deg, #FF0C86 0%, #FF7454 100%);
+    background-image: linear-gradient(100deg, #20c888 0%, #20c888 100%);
     color: #fff !important;
 }
 
@@ -576,7 +587,7 @@ header {
     padding: 15px 40px;
     border-radius: 5px;
     outline: none;
-    background: var(--e-global-background-small-square);
+    background: #20c888;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -765,6 +776,9 @@ header {
     .fourthItemInfo h1 {
         margin: 10px auto;
     }
+    .footForm input {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -780,5 +794,8 @@ header {
     }
     .footerFirst {
         margin-bottom: 25px;
+    }
+    .footForm input {
+        width: 100%;
     }
 }
