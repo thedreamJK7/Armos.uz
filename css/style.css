@@ -69,7 +69,6 @@ img {
 
 header {
     transition: .3s;
-    padding: 20px 0;
 }
 
 header.fixed {
@@ -79,7 +78,6 @@ header.fixed {
     background: #fff !important;
     z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    padding: 0;
 }
 
 .navBar {
@@ -667,6 +665,15 @@ header.fixed {
 
 .footerFirstLinks p {
     color: #c2c2c2;
+}
+
+#footerSecond {
+    padding: 21px 0;
+    background: #061534;
+    border-top: #1e345f .5px solid;
+}
+#footerSecond p {
+    margin: 0;
 }
 
 @media (max-width: 992px) {
