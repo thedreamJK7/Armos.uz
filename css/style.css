@@ -309,7 +309,7 @@ header.fixed {
     background: url(/img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     transition: .5s;
     
     animation-name: animate;
@@ -326,9 +326,9 @@ header.fixed {
     height: 100vh;
 }
 
-#second {
-    /* background: var(--e-global-background); */
-}
+/* #second {
+    background: var(--e-global-background);
+} */
 
 @keyframes animate{
     0% {
@@ -997,6 +997,33 @@ header.fixed {
         background-size: 70%;
         background-repeat: no-repeat;
         /* overflow: hidden; */
+    }
+    @keyframes animate{
+        0% {
+            background-image: url(/img/machine-analytics.jpg);
+            background-size:cover;
+            background-position: center;
+        }
+        25% {
+            background: url(/img/1920x1080.jpg);
+            background-size:cover;
+            background-position: center;
+        }
+        50% {
+            background: url(/img/9393297.image);
+            background-size:cover;
+            background-position: center;
+        }
+        75% {
+            background: url(/img/bgforContact.jpg);
+            background-size:cover;
+            background-position: center;
+        }
+        100% {
+            background: url(/img/1.jpg);
+            background-size:cover;
+            background-position: center;
+        }
     }
 }
 
