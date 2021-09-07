@@ -297,6 +297,7 @@ header.fixed {
 
 #first {
     background: linear-gradient(50deg, rgba(45, 54, 145, 0.8) 35%, rgba(79, 162, 130, 0.95)), url(/img/Registan.jpg);
+    min-height: 100vh;
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
@@ -308,7 +309,7 @@ header.fixed {
 }
 
 .firstItem h1 {
-    font-size: 110px;
+    font-size: 60px;
     font-family: var(--e-global-typography-heading-font-family);
     margin-bottom: 15px;
 }
@@ -676,6 +677,129 @@ header.fixed {
     margin: 0;
 }
 
+/* form */
+#tenth {
+    /* background-image:linear-gradient(153deg, rgba(0,36,16,0.6474964985994398) 7%, rgba(0,255,188,0.47942927170868344) 58%, rgba(0, 213, 255, 0.356) 100%), url(/img/bgforContact.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    background-color: rgba(6,63,150,0.07);
+    padding: 20px 0;
+}
+
+.tenthItemHeading h1 {
+    font-family: var(--e-global-typography-heading-font-family);
+    margin-bottom: 20px;
+    color: #20c888;
+}
+
+.tenthItemHeading p {
+    color: #2e282a;
+}
+
+.tenthItemIcon {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.tenthItemIcon i {
+    font-size: 24px;
+    margin-right: 20px;
+    background: #20c888;
+    color: #fff;
+    border-radius: 100px;
+    padding: 16px 18px;
+}
+
+.tenthIconItem h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+}
+
+.tenthForm {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    position: relative;
+    padding: 50px 40px;
+}
+
+.tenthFormHeading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #20c888;
+    color: #fff;
+    border-radius: 4px;
+    width: 70%;
+    text-align: center;
+    padding: 6px 0;
+    top: -10px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.formGroup {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.formGroup input,
+.formGroup textarea
+ {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid #666;
+}
+
+.formGroup label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: .5s;
+    color: #666;
+    pointer-events: none;
+}
+
+.formGroup input:focus ~ label,
+.formGroup textarea:focus ~ label,
+.formGroup input:valid ~ label,
+.formGroup textarea:valid ~ label {
+    color: #e91e63;
+    font-size: 12px;
+    top: -20px;
+}
+
+.formGroup button {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 6px 40px;
+    border-radius: 5px;
+    background: #20c888;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
 @media (max-width: 992px) {
     .navHamburger {
         display: none;
@@ -734,10 +858,10 @@ header.fixed {
         background: #fff;
     }
     .firstItem h1 {
-        font-size: 87px;
+        font-size: 50px;
     }
     .firstItem p {
-        font-size: 22px;
+        font-size: 20px;
     }
     .iconic i {
         font-size: 20px;
@@ -756,10 +880,10 @@ header.fixed {
 
 @media (max-width: 768px) {
     .firstItem h1 {
-        font-size: 57px;
+        font-size: 40px;
     }
     .firstItem p {
-        font-size: 20px;
+        font-size: 18px;
     }
     .secondItems h3 {
         font-size: 32px;
@@ -790,7 +914,7 @@ header.fixed {
 
 @media (max-width: 576px) {
     .firstItem h1 {
-        font-size: 47px;
+        font-size: 35px;
     }
     .firstItem p {
         font-size: 18px;
