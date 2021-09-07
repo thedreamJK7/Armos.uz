@@ -711,6 +711,10 @@ header.fixed {
     padding: 16px 18px;
 }
 
+.tenthItemIconPhone i {
+    padding: 16px 15px;
+}
+
 .tenthIconItem h3 {
     font-size: 20px;
     font-weight: 600;
@@ -798,6 +802,39 @@ header.fixed {
     color: #fff;
     border: none;
     margin-top: 10px;
+}
+
+/* img armo */
+
+.armo {
+    background: url(/img/amocrm-logo-dark.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #0084C0;
+}
+.moySklad {
+    background: url(/img/moysklad.jfif);
+    background-size: cover;
+    background-position: center;
+    background-color: #2754AE;
+}
+.Profitbase {
+    background: url(/img/profitbase.png);
+    background-size: cover;
+    background-position: center;
+}
+.megaplan {
+    background: url(/img/megaplan.jpg);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .megaplan, .Profitbase, .moySklad, .armo */
+
+.secondImgStatistic {
+    padding: 100px 0;
+    cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -909,6 +946,12 @@ header.fixed {
     }
     .footForm input {
         margin-bottom: 20px;
+    }
+    .megaplan, .Profitbase, .moySklad, .armo {
+        /* width: 50%; */
+        background-size: 70%;
+        background-repeat: no-repeat;
+        /* overflow: hidden; */
     }
 }
 
