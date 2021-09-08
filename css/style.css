@@ -342,18 +342,23 @@ header.fixed {
 @keyframes animate{
     0% {
         background-image: url(/img/machine-analytics.jpg);
+        background-repeat: no-repeat;
     }
     25% {
         background: url(/img/1920x1080.jpg);
+        background-repeat: no-repeat;
     }
     50% {
         background: url(/img/9393297.image);
+        background-repeat: no-repeat;
     }
     75% {
         background: url(/img/bgforContact.jpg);
+        background-repeat: no-repeat;
     }
     100% {
         background: url(/img/1.jpg);
+        background-repeat: no-repeat;
     }
 }
 
@@ -1026,21 +1031,25 @@ header.fixed {
     @keyframes animate{
         0% {
             background-image: url(/img/machine-analytics.jpg);
+            background-repeat: no-repeat;
             background-size:cover;
             background-position: center;
         }
         25% {
             background: url(/img/1920x1080.jpg);
+            background-repeat: no-repeat;
             background-size:cover;
             background-position: center;
         }
         50% {
             background: url(/img/9393297.image);
+            background-repeat: no-repeat;
             background-size:cover;
             background-position: center;
         }
         75% {
             background: url(/img/bgforContact.jpg);
+            background-repeat: no-repeat;
             background-size:cover;
             background-position: center;
         }
@@ -1048,6 +1057,7 @@ header.fixed {
             background: url(/img/1.jpg);
             background-size:cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
     }
     .secondImgStatisticInfoItems {
