@@ -52,28 +52,28 @@ window.addEventListener('scroll',()=> {
 
 // Services with jQuery 
 $('.armo').click(function(){
-    $('.wrapper1 > .secondImgStatisticInfo').fadeIn(600);
+    $('.wrapper1 > .secondImgStatisticInfo').fadeIn(400);
 });
 $('.moySklad').click(function(){
-    $('.wrapper2 > .secondImgStatisticInfo').fadeIn(600);
+    $('.wrapper2 > .secondImgStatisticInfo').fadeIn(400);
 });
 $('.Profitbase').click(function(){
-    $('.wrapper3 > .secondImgStatisticInfo').fadeIn(600);
+    $('.wrapper3 > .secondImgStatisticInfo').fadeIn(400);
 });
 $('.megaplan').click(function(){
-    $('.wrapper4 > .secondImgStatisticInfo').fadeIn(600);
+    $('.wrapper4 > .secondImgStatisticInfo').fadeIn(400);
 });
 $('.wrapper1 > .secondImgStatisticInfo > i').click(function(){
-    $('.wrapper1 > .secondImgStatisticInfo').fadeOut(600);
+    $('.wrapper1 > .secondImgStatisticInfo').fadeOut(400);
 });
 $('.wrapper2 > .secondImgStatisticInfo > i').click(function(){
-    $('.wrapper2 > .secondImgStatisticInfo').fadeOut(600);
+    $('.wrapper2 > .secondImgStatisticInfo').fadeOut(400);
 });
 $('.wrapper3 > .secondImgStatisticInfo > i').click(function(){
-    $('.wrapper3 > .secondImgStatisticInfo').fadeOut(600);
+    $('.wrapper3 > .secondImgStatisticInfo').fadeOut(400);
 });
 $('.wrapper4 > .secondImgStatisticInfo > i').click(function(){
-    $('.wrapper4 > .secondImgStatisticInfo').fadeOut(600);
+    $('.wrapper4 > .secondImgStatisticInfo').fadeOut(400);
 });
 
 

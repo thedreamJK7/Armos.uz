@@ -96,8 +96,17 @@ header.fixed {
     /* height: 100px; */
 }
 
+.navB {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
     width: 60px;
+}
+
+.navbar {
+    margin-right: 100px;
 }
 
 .navbar .navbar-item {
@@ -787,6 +796,10 @@ header.fixed {
     text-align: center;
     padding: 6px 0;
     top: -10px;
+}
+
+.tenthFormHeading h4 {
+    margin: 6px 0;
 }
 
 .form {
