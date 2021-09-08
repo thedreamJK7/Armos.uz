@@ -1059,4 +1059,7 @@ header.fixed {
     .footForm input {
         width: 90%;
     }
+    .wrapper1 .secondImgStatisticInfoItems p {
+        font-size: 16px;
+    }
 }
