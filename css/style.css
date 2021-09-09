@@ -1092,4 +1092,7 @@ header.fixed {
     .wrapper1 .secondImgStatisticInfoItems p {
         font-size: 14px;
     }
+    .wrapper1 .secondImgStatisticInfoItems h1 {
+        font-size: 24px;
+    }
 }
