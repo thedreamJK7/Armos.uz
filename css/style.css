@@ -290,8 +290,8 @@ header.fixed {
     position: relative;
 }
 
-.compHamburger i {
-    font-size: 24px;
+.compHamburger img {
+    width: 60px;
 }
 
 .compHamburger .xComp {
@@ -1009,6 +1009,9 @@ header.fixed {
     }
     .fourth {
         background-image: none;
+    }
+    .logo {
+        display: none;
     }
 }
 
