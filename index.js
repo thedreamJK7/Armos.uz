@@ -45,10 +45,10 @@ sr.reveal(`#second,#third,#fourth,#nineth`,{
     interval: 2000
 });
 
-window.addEventListener('scroll',()=> {
-    let qwer = document.querySelector('header');
-    qwer.classList.toggle('fixed', window.scrollY > 200);
-});
+// window.addEventListener('scroll',()=> {
+//     let qwer = document.querySelector('header');
+//     qwer.classList.toggle('fixed', window.scrollY > 200);
+// });
 
 // Services with jQuery 
 $('.armo').click(function(){

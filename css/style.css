@@ -926,6 +926,13 @@ header.fixed {
     font-size: 32px;
 }
 
+/* footerUl */
+
+.footerUl li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 @media (max-width: 992px) {
     .navHamburger {
@@ -1083,6 +1090,6 @@ header.fixed {
         width: 90%;
     }
     .wrapper1 .secondImgStatisticInfoItems p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
