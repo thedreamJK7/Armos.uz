@@ -315,52 +315,78 @@ header.fixed {
 #first {
     min-height: 100vh;
     color: #fff;
-    background: url(/img/1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: .5s;
-    
-    animation-name: animate;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out;
+    position: relative;
 }
 
 .first {
-    background-color: #24212246;
+    background-color: #24212275;
     height: 100vh;
+    z-index: 2;
+}
+
+/* slideshow */
+.slideshow {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.slideshowItem {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 31s infinite;
+}
+
+.slideshowItem:nth-child(1),
+.slideshowItem:nth-child(1) img {
+    animation-delay: 0s;
+}
+.slideshowItem:nth-child(2),
+.slideshowItem:nth-child(2) img {
+    animation-delay: 7.5s;
+}
+.slideshowItem:nth-child(3),
+.slideshowItem:nth-child(3) img {
+    animation-delay: 15s;
+}
+.slideshowItem:nth-child(4),
+.slideshowItem:nth-child(4) img {
+    animation-delay: 22.5s;
+}
+
+.slideshowItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 41s infinite;
+}
+
+@keyframes cycleImages {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes zoom {
+    100%{
+        transform: scale(1.3);
+    }
 }
 
 /* #second {
     background: var(--e-global-background);
 } */
 
-@keyframes animate{
-    0% {
-        background-image: url(/img/machine-analytics.jpg);
-        background-repeat: no-repeat;
-    }
-    25% {
-        background: url(/img/1920x1080.jpg);
-        background-repeat: no-repeat;
-    }
-    50% {
-        background: url(/img/9393297.image);
-        background-repeat: no-repeat;
-    }
-    75% {
-        background: url(/img/bgforContact.jpg);
-        background-repeat: no-repeat;
-    }
-    100% {
-        background: url(/img/1.jpg);
-        background-repeat: no-repeat;
-    }
-}
 
 .firstItem {
     padding: 150px 0 0;
@@ -1038,38 +1064,7 @@ header.fixed {
         background-repeat: no-repeat;
         /* overflow: hidden; */
     }
-    @keyframes animate{
-        0% {
-            background-image: url(/img/machine-analytics.jpg);
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-        }
-        25% {
-            background: url(/img/1920x1080.jpg);
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-        }
-        50% {
-            background: url(/img/9393297.image);
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-        }
-        75% {
-            background: url(/img/bgforContact.jpg);
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-        }
-        100% {
-            background: url(/img/1.jpg);
-            background-size:cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    }
+    
     .secondImgStatisticInfoItems {
         width: 90%;
     }
