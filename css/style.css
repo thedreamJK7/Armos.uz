@@ -962,8 +962,21 @@ header.fixed {
     margin-bottom: 20px;
 }
 
-.fourthItemImg h1 {
-    font-family: var(--e-global-typography-heading-font-family);
+.fourthItem1 {
+    margin: 0 !important;
+}
+
+.fourthItem1 img {
+    width: 80px !important;
+    margin: 0;
+}
+
+.fourthItemImg {
+    margin-top: 24px;
+}
+
+.fourthItemImg img {
+    width: 140px;
 }
 
 .fourthItemInfo h1 {
