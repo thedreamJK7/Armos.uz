@@ -41,8 +41,8 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`#second,#third,#fourth,#nineth`,{
-    interval: 2000
+sr.reveal(`#second,#third,#fourth,#nineth,#tenth`,{
+    interval: 200
 });
 
 window.addEventListener('scroll',()=> {
@@ -75,6 +75,29 @@ $('.wrapper3 > .secondImgStatisticInfo > i').click(function(){
 $('.wrapper4 > .secondImgStatisticInfo > i').click(function(){
     $('.wrapper4 > .secondImgStatisticInfo').fadeOut(400);
 });
+
+// scroll active
+
+// const sections = document.querySelectorAll('section[id]');
+// console.log(sections);
+
+// function scrollActive() {
+//     const scrollY = window.pageYOffset;
+
+//     sections.forEach(current => {
+//         const sectionHeight = current.offsetHeight;
+//         const sectionTop = current.offsetTop - 50;
+
+//         sectionId = current.getAttribute('id');
+
+//         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+//             let one = document.querySelector('.navB a[href*='+ sectionId + ']').classList.add('navActive');
+//             console.log(one);
+//         }
+//     })
+// }
+
+// window.addEventListener('scroll', scrollActive);
 
 
 
