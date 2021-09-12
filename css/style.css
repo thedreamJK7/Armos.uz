@@ -105,6 +105,24 @@ header.fixed {
     align-items: center;
 }
 
+.logo .logoName1 {
+    color: #373635;
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo .logoName1 h1 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.logo .logoName1 p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
 .logoName {
     text-align: center;
 }
@@ -397,11 +415,6 @@ header.fixed {
     }
 }
 
-/* #second {
-    background: var(--e-global-background);
-} */
-
-
 .firstItem {
     padding: 150px 0 0;
 }
@@ -423,6 +436,11 @@ header.fixed {
     margin-top: 70px;
 }
 
+/* #second {
+    background-image: url(/img/Business-Continuity-Office-Background-White.jpg);
+    background-position: center;
+} */
+
 .secondItems p {
     color: #20c888;
     font-size: 20px;
@@ -440,17 +458,15 @@ header.fixed {
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: #FFFFFF;
     box-shadow: 0px 10px 70px -10px rgb(103 100 253 / 20%);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform .3s;
+    transition: background 0.3s, border-radius 0.3s, box-shadow 0.3s, transform .3s;
     border-radius: 4px;
+    border: none;
     padding: 50px 0px 40px 0px;
     transform: translateY(0);
 }
 
 .secondImgStatistic:hover{
-    border-bottom: 2px solid #FF7454;
     transform: translateY(-5px);
 }
 
@@ -622,6 +638,26 @@ header.fixed {
 
 .footLogo {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footLogo .logoName1 {
+    color: #fff;
+    text-align: center;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footLogo .logoName1 h1 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.footLogo .logoName1 p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 .footLogo img {
@@ -670,6 +706,10 @@ header.fixed {
     color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.footerFirstLinks span {
+    font-size: 15px;
 }
 
 .footerUl {
@@ -926,6 +966,10 @@ header.fixed {
     display: none;
 }
 
+.mobileMenuLogo {
+    font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 992px) {
     .navHamburger {
         display: none;
@@ -1064,6 +1108,7 @@ header.fixed {
     
     .logoName {
         display: block;
+        font-family: 'Roboto', sans-serif;
     }
 
     .logoName p {   
@@ -1071,5 +1116,8 @@ header.fixed {
         font-weight: 600;
         color: #373635;
         margin: 0;
+    }
+    .logo .logoName1 {
+        display: none;
     }
 }
