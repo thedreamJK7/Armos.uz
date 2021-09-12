@@ -41,9 +41,9 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`#second,#third,#fourth,#nineth,#tenth`,{
-    interval: 200
-});
+// sr.reveal(`#second,#third,#fourth,#nineth,#tenth`,{
+//     interval: 200
+// });
 
 window.addEventListener('scroll',()=> {
     let qwer = document.querySelector('header');
