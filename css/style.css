@@ -576,10 +576,10 @@ header.fixed {
 
 .fourth {
     padding: 20px 0;
-    background: url(/img/digital-dotted.png);
+    /* background: url(/img/digital-dotted.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .fourth .thirdItemsInfo h3 {
