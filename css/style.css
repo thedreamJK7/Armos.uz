@@ -329,7 +329,6 @@ header.fixed {
     top: 2px;
     right: 2px;
     z-index: -1;
-    /* transition: .3s; */
 }
 
 .compBars {
@@ -337,7 +336,6 @@ header.fixed {
     background: #fff;
     border-radius: 4px;
     padding: 4px 6px;
-    /* transition: .3s; */
 }
 
 /* first */
@@ -435,11 +433,6 @@ header.fixed {
     background: #fff;
     margin-top: 70px;
 }
-
-/* #second {
-    background-image: url(/img/Business-Continuity-Office-Background-White.jpg);
-    background-position: center;
-} */
 
 .secondItems p {
     color: #20c888;
@@ -576,10 +569,6 @@ header.fixed {
 
 .fourth {
     padding: 20px 0;
-    /* background: url(/img/digital-dotted.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 .fourth .thirdItemsInfo h3 {
